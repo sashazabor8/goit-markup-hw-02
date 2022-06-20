@@ -24,6 +24,12 @@ body {
     list-style: none;
 }
 
+.title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+}
 .list, 
 .link {
     text-decoration: none;
@@ -65,8 +71,8 @@ body {
         letter-spacing: 0.02em;
 }
 
-.link:hover,
-.link:focus {
+.site-header .link:hover,
+.site-header .link:focus {
     color: var(--accent-color);
 }
 
@@ -89,7 +95,6 @@ body {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 
-        text-decoration: none;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -97,9 +102,9 @@ body {
         
 }
 
-.hero-link:hover,
-.hero-link:focus {  
-    font-variant: var(--primary-white-color);
+
+.hero-link {
+    text-decoration: none;
 }
 
 /*преимущества*/
@@ -123,34 +128,20 @@ body {
 
 /*Суть работы*/
 
-.work-title { 
-    
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-}
-
 /*Кто работает*/
 
 .workers {
     background-color: #F5F4FA;
 }
 
-.workers-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-}
 
-.workers-list {
+.workers-name {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.19; 
 }
 
-.workers-paragrapf {
+.workers-position {
     color: var(--tltle-text-color);
 
         font-weight: 400;
@@ -166,15 +157,9 @@ body {
 
 .footer .logo {
     color: var(--primary-white-color);
-        font-family: Raleway, sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        text-decoration: none;
-        list-style: none;
 }
 .footer .list {
-        
+        color: rgba(255, 255, 255, 0.6);
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -183,9 +168,6 @@ body {
 }
 .adress {
     color: var(--primary-white-color);
-}
-.contacts {
-    color: rgba(255, 255, 255, 0.6);;
 }
 
 
@@ -212,9 +194,6 @@ body {
     background-color: var(--accent-color);
 }
 
-.work-link {
-    text-decoration: none;
-}
 
 /*Примеры работ в портфолио*/
 
