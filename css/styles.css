@@ -187,3 +187,64 @@ body {
 .contacts {
     color: rgba(255, 255, 255, 0.6);;
 }
+
+
+
+/*!!!!!!!!portfolio.html!!!!!!!!*/
+
+/*Наши работы*/
+.work-list {
+    background-color: var(--primary-white-color);
+}
+
+/*Список кнопок*/
+
+.button {
+    font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+}
+.button:hover,
+.button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.work-link {
+    text-decoration: none;
+}
+
+/*Примеры работ в портфолио*/
+
+.work-header {
+    color: var(--primary-text-color);
+   
+    font-family: Roboto, sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.work-paragrapf {
+    color: var(--tltle-text-color);
+
+    font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+}
+.work-doublepar {
+color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+    } 
+
+    
+
